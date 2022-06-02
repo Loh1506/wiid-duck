@@ -1,0 +1,278 @@
+<html>
+<head>
+  <title>
+    Wild Duck. Полювання в Україні 
+   </title>
+<link rel="stylesheet" type="text/css" href="style.css">
+ <style>
+   a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+   } 
+  </style>
+  <script>
+    function set_open (){
+    document.getElementById('setting1').style.display = 'block';
+  }
+  function set_close (){
+    document.getElementById('setting1').style.display = 'none';
+  }
+  function dopfun_open (){
+    document.getElementById('dopfunc1').style.display = 'block';
+  }
+  function dopfun_close (){
+    document.getElementById('dopfunc1').style.display = 'none';
+  }
+  function patrons() {
+var x=parseInt(prompt("Введіть кількість патронів"));
+var y=parseFloat(prompt("Введіть ціну патрона"));
+alert("До сплати "+ x*y + "грн");
+}
+function autoth() {
+var x=prompt("Введіть ваше ім'я");
+if (x=="", x==" "){
+ document.getElementById("au").innerHTML =  "Доброго дня, гість";
+}
+else{
+document.getElementById("au").innerHTML =  "Доброго дня, " + x;
+}
+}
+var x=45
+var y=9
+function likes() {
+x += 1;
+document.getElementById("lol").textContent = x + " likes";
+}
+function dislikes() {
+y += 1;
+document.getElementById("loll").textContent = y + " dislikes";
+}
+function timer () {setTimeout(function(){
+document.getElementById("textform").style.display='none';
+}, 180000);}
+function anketa () {
+document.getElementById("textform").style.display = 'block';
+document.getElementById("blur").style.display = 'block';
+}
+function anketa_off () {
+document.getElementById("textform").style.display = 'none';
+document.getElementById("blur").style.display = 'none';
+}
+function sl1(){
+  document.getElementById('duck').style.display = 'none';
+  document.getElementById('rb').style.display = 'block';
+}
+function sl2(){
+  document.getElementById('rb').style.display = 'none';
+  document.getElementById('ph').style.display = 'block';
+}
+function sl3(){
+  document.getElementById('ph').style.display = 'none';
+  document.getElementById('duck').style.display = 'block';
+}
+function tema (a){
+var lol = document.getElementById(a);
+var cl = document.getElementById(a);
+lol.style.background = "#696969";
+cl.style.color = "#F0FFF0";
+document.body.style.backgroundImage = "url(ночнебо.jpg)";
+
+}
+function tema_off (b){
+var lol = document.getElementById(b);
+var cl = document.getElementById(b);
+lol.style.background = "white";
+cl.style.color = "black";
+document.body.style.backgroundImage = "url(1.jpg)";
+
+}
+  </script>
+</head>
+<body  link="black" alink="#FF4500" vlink="#006400" background="1.jpg">
+<table id="main_t" width=93% height=100% align="center" cellspacing="0" cellpadding="15">
+  <tr>
+    <td colspan="2" id="td1">
+     <header>
+       <nav id="menu1">
+       <ul class="main">         
+       </li>
+           <li class="main1"><a href="index.html">Головна</a>
+         </li>
+           <li class="main1"><a href="index 1.html">Правила полювання в Україні</a>
+             <ul class="vipod">
+               <li><a href="#m3_1">Бракон'єрство</a></li>
+               <li><a href="#m3_2">Штрафи</a></li>
+               <li><a href="#m3_3">Вилучення зброї</a></li>
+           </ul>
+
+           <li class="main1"><a href="index 3.html">Види мисливської зброї</a>
+               <ul class="vipod">
+                   <li><a href="#m3_1">Мисливська гвинтівка</a></li>
+                   <li><a href="#m3_2">Рушниці</a></li>
+               </ul>
+           </li>
+           <li class="main1">
+             <a href="index 4.html">Догляд за зброєю</a>
+           </li>
+           <li>
+             <a href="index 5.html"> 
+             Типи та види набоїв
+             </a>
+           </li>
+       </ul>
+       </nav>
+    </td>
+  </tr>
+ <tr height=10 bgcolor="White">
+  <td id="td2"> 
+   <h2>
+   Полювання в Україні та нашому регіоні
+   <img src="меню.png" width="50px" id="menu" onmouseover="set_close();dopfun_open();">
+   <img src="gear.png" width="50px" id="gear" onmouseover="set_open();dopfun_close();">
+   </h2>
+   <hr>
+<center>
+<img src="фазан.jpg" width=31.25% height=30% id="ph" onclick="sl3();">
+<img src="утка.jpg" width=35% height=30% id="duck" onclick="sl1();">
+<img src="заяц.jpg" width=17.5% height=17% id="rb" onclick="sl2();">
+</center>
+<p> Сьогодні в Україні найбільшою популярністю користується полювання на качок, зайців та кабанів. Жителі середньої смуги найчастіше полюють на чирків та крижневих качок в осінньо-літній сезон.
+</p> 
+<p>
+Для цього використовуються такі способи добичі як: стрільба під час перельоту пташок (як ранішньому, так і вечірньому). Це є найбільш масовий спосіб полювання, який користується особливою популярністю у новачків. При виборі часу полювання найкраще зупинитись на ранніх сутінках; стрільба качок під час їх денного відпочинку (на днівках). Такий вид полювання потребує неабиякої посидючості та уваги, тому більше підходе для досвідчених мисливців; полювання з під’їзду найбільш продуктивно, коли два мисливця; лови з човна (на озерах, водоймищах та узмор’ї). Також більше підходе для досвідчених мисливців; мисливство з чучелами або підсадними качками. Потребує ретельної підготовки, але дає гарний результат; полювання з собаками (лайками, спанієлями).Кожен з видів ловецтва потребує різної підготовки, має свої особливості та нюанси. Тому ви можете пробувати різні види мисливства під час сезону задля пошуку найцікавішого та найпродуктивнішого для вас. Крім того, в Україні полюють на таких пташок як гуси, куликів, стрепету, куріпок, фазанів та інших. 
+</p>
+<p> Мисливство в Україні на копитних тварин (кабанів, оленів, лосів тощо) потребує спеціальної ліцензії. Мисливці мають бути у групі з 9-12 чоловіків, яку керує єгер. Полювання відбувається у спеціальних мисливських господарствах та із дотриманням суворих правил. В залежності від того, на кого полюю група, обирається певна місцевість. Досвідчений єгер має підказати, в який час краще вирушати на лови, де розташуватися мисливцям, а також, як буде себе вести звір, коли його підстрелять, як його вислідити. Полювання на хутрових тварин (наприклад, вовків, або лисиць) здійснюється також колективно, у групах по 5-10 чоловік. Це досить важкий вид ловецтва, оскільки ці звірі вкрай обережні та мають дуже гострий нюх. Дуже важливо, наскільки досвідчений єгер очолює групу, адже саме він з’ясовує, де звірі заляжуть на днівку, аналізуючи розташування слідів. Також саме він розставляє мисливців на позиції, щоб оточити здобич з усіх боків. Також полюють на дрібних хутрових тварин: зайця, білку, куницю, борсуків. Краще ловити їх взимку, коли вони мають найкраще хутро. На білок часто полюють із собаками (лайками), які неабияк допомагають у цій справі. На цих тварин мисливці можуть виходити поодинці, не потрібно мати колективну ліцензію та йти групою.При полюванні на зайця важливо обрати правильний час: найкраще підійде день після пороші, коли всі сліди свіжі, та здобич легко знайти. Також велику роль грає місцина, адже в густому лісі завдання мисливця істотно ускладнюється, то варто обирати рідколісся або лісостеп. Зайця-русака слід шукати не глибоко у лісі та край болота. 
+</p>
+<p>
+Полювання на кабанів є дуже давнім видом мисливства в Україні. Зараз ця тварина мешкає абсолютно в усіх областях країни, тому цей вид ловецтва є дуже популярним. Гін кабанів відбувається на початку зими (в перші 2 місяці). При відстеженні важливо йти проти вітру, адже вони мають дуже гострий нюх, і можуть одразу розпізнати запах людини. Через те, що полювання на кабанів – важка справа, все частіше їх стріляють з веж, заздалегідь підготовлюючи їжу-приманку (кукурудзу). Також цікавим видом полювання на кабанів є – ловецтво із собаками. Для цього є спеціально виведені породи, основною задачею якої є піднімання стада. На жаль, такий вид мисливства є дуже небезпечним для собак, які часто гинуть від кабанів. Перед тим, як йти на полювання, треба гарно підготуватися, обрати рушницю, відповідні патрони, додаткове обладнання що може знадобитися. Якщо ви початковий мисливець, то краще звернутися за порадою до більш досвідчених мисливців, щоб уникнути помилок, які допускають початківці.
+</p>
+
+  </td>
+ </tr>
+ <tr>
+  <td bgcolor="#006400" id="footer">
+    <center>
+      Wild Duck 2021 - 2022
+      <br>
+      При використанні матеріалів сайту, посилання на Wild Duck обов'язкове
+      <br>
+      Сторінку створено у 2022 році
+    </center>
+  </td>
+</tr>
+<div id="setting1" onmouseleave="set_close ();">
+  <div id="set_text">
+    <p id="normal">
+   <button id='au' onclick="autoth();">
+	  Авторизація
+   </button>
+   <p id="normal"></p>
+   <button onclick="tema(td1.id);tema(td2.id);tema(td3.id);">
+    Натисніть для темної теми 
+   </button>
+   <p id="normal"></p>
+   <button onclick="tema_off(td1.id);tema_off(td2.id);tema_off(td3.id);">
+    Натисніть для світлої теми 
+   </button>
+  </div>
+ </div>
+ <div id="dopfunc1" onmouseleave="dopfun_close();">
+   <div id="dop_func" >
+     <form>
+	<p id="normal">
+  <button value='patrons' onclick="patrons();" id="patr">
+	Натисніть для підрахунку ціни патронів <img src="п.jpg" style="vertical-align: middle; border: 0"  >
+	</button>
+</p>
+  <button class="buttonform" onmouseover="anketa(); timer ();">
+  наведіть для заповнення анкети
+  </button>
+  </form>
+   </div>
+   </div>
+   <div id="blur">
+ <div id="textform">  
+  <img src="кр.png" width="25px" id="cr" onclick="anketa_off ()">
+  <h4 align = center>   
+
+  Відправте нам повідомлення, ми вам допоможемо
+
+  </h4>
+  <div id="form" >
+  <form role="form" action="mailto:egorbudovskij@gmail.com" autocomplete="off" method="POST">
+    <div>
+    <label for="name">
+	  Ім'я
+	  </label>
+      <input type="text" name="name" required>
+    </div>
+	<p>
+	</p>
+    <div class="radio">
+      <label for="sex">
+	  Стать
+        <select name="sex">
+        <option value="Female">жінка</option> 
+        <option value="Male" selected>чоловік</option> 
+        <option value="indefined">Не визначено</option> 
+      </select>
+      </label>
+    </div>
+	<p>
+	</p>
+    <div>
+    <label for="email">
+	  E-mail
+	  </label>
+      <input type="email" name="email" required>
+    </div>
+    <p>
+    </p>
+      <div>
+      <label for="tel">
+      Номер телефону
+      </label>
+        <input type="text" name="tel">
+      </div>
+	<p>
+	</p>
+    <div>
+      <label for="country">
+	  Країна проживання
+	  </label>
+	  <input type="text" name="country" required>
+    </div>  
+    <p>
+	  </p>
+	<div>
+	 <label>
+	  Оберіть свою проблему
+	  <select name="problem">
+	  <option value="Patrons">Не можете визначитися із патронами</option>
+	  <option value="Dogs">Не можете  натренувати свою собаку</option>	
+	  <option value="Calibre">Не можете визначитися із калібром рушниці</option>
+	  </select>
+	 </label>
+	 </div>
+	 <p>
+	 </p>
+	 <div>
+	  <label>
+	   Якщо у пунктах немає вашої проблеми, то опишіть її:
+	   <input type='text'>
+	  </label>
+   </div>
+	 <div class="button_form">
+    <button NAME = "Відправити" TYPE="confirm" VALUE = "Відправити" onclick="confirm('Відправити листа поштою?')">
+      Відправити
+    </button>
+	  <button type="reset" value="Очистити">
+      Очистити
+      </button>
+	</div>
+</form>
+</div>	
+</div>
+</div>
+</table>
+</body>
+</html>

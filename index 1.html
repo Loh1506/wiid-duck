@@ -1,0 +1,264 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+   a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+   } 
+</style>
+<title>
+ Wild Duck. Правила полювання в Україні
+</title>
+<script>
+  function set_open (){
+  document.getElementById('setting1').style.display = 'block';
+}
+function set_close (){
+  document.getElementById('setting1').style.display = 'none';
+}
+function dopfun_open (){
+  document.getElementById('dopfunc1').style.display = 'block';
+}
+function dopfun_close (){
+  document.getElementById('dopfunc1').style.display = 'none';
+}
+function patrons() {
+var x=parseInt(prompt("Введіть кількість патронів"));
+var y=parseFloat(prompt("Введіть ціну патрона"));
+alert("До сплати "+ x*y + "грн");
+}
+function autoth() {
+var x=prompt("Введіть ваше ім'я");
+if (x==""){
+ document.getElementById("au").innerHTML =  "Доброго дня, гість";
+}
+else{
+document.getElementById("au").innerHTML =  "Доброго дня, " + x;
+}
+}
+var x=45
+var y=9
+function likes() {
+x += 1;
+document.getElementById("lol").textContent = x + " likes";
+}
+function dislikes() {
+y += 1;
+document.getElementById("loll").textContent = y + " dislikes";
+}
+function timer () {setTimeout(function(){
+document.getElementById("textform").style.display='none';
+}, 180000);}
+function anketa () {
+document.getElementById("textform").style.display = 'block';
+document.getElementById("blur").style.display = 'block';
+}
+function anketa_off () {
+document.getElementById("textform").style.display = 'none';
+document.getElementById("blur").style.display = 'none';
+}
+
+function tema (a){
+var lol = document.getElementById(a);
+var cl = document.getElementById(a);
+lol.style.background = "#696969";
+cl.style.color = "#F0FFF0";
+document.body.style.backgroundImage = "url(ночнебо.jpg)";
+
+}
+function tema_off (b){
+var lol = document.getElementById(b);
+var cl = document.getElementById(b);
+lol.style.background = "white";
+cl.style.color = "black";
+document.body.style.backgroundImage = "url(1.jpg)";
+
+}
+</script>
+</head>
+<body  link="black" alink="#FF4500" vlink="#006400" background="1.jpg">
+<table id="main_t" width=93% height=100% align="center" cellspacing="0" cellpadding="15">
+   <tr>
+      <td colspan="2" id="td1">
+       <header>
+         <nav id="menu1">
+         <ul class="main">
+             <li class="main1"><a href="index.html">Головна</a>
+           </li>
+             <li class="main1"><a href="index 2.html">Полювання в Україні та нашому регіоні </a>
+               <ul class="vipod">
+                 <li><a href="#m3_1">Полювання на птахів</a></li>
+                 <li><a href="#m3_2">Полювання на хижаків</a></li>
+                 <li><a href="#m3_3">Полювання на копитних</a></li>
+             </ul>
+           </li>
+             <li class="main1"><a href="index 3.html">Види мисливської зброї</a>
+                 <ul class="vipod">
+                     <li><a href="#m3_1">Мисливська гвинтівка</a></li>
+                     <li><a href="#m3_2">Рушниці</a></li>
+                 </ul>
+             </li>
+             <li class="main1">
+               <a href="index 4.html">Догляд за зброєю</a>
+             </li>
+             <li>
+               <a href="index 5.html"> 
+               Типи та види набоїв
+               </a>
+             </li>
+         </ul>
+         </nav>
+      </td>
+    </tr>
+ <tr height=10 bgcolor="White">
+  <td id="td2"> 
+   <h2>
+   Правила полювання в Україні
+   <img src="меню.png" width="50px" id="menu" onmouseover="set_close();dopfun_open();">
+   <img src="gear.png" width="50px" id="gear" onmouseover="set_open();dopfun_close();">
+   </h2>
+   <hr>
+   <p>
+   Згідно із законодавством право на полювання мають громадяни України, які досягли 18-річного віку, одержали дозвіл на добування мисливських тварин та 
+   мають інші документи, що засвідчують право на полювання.
+   </p>
+   <p>
+   <img src="утка на озере.jpg" width=15% height=15% class="leftfoto">
+   Для іноземців вважаються чинними документи на право полювання, видані відповідними органами інших держав.Полювання з використанням вогнепальної мисливської зброї дозволяється лише особам, які одержали дозвіл на право користування цією зброєю.До полювання прирівнюється також перебування осіб у межах мисливських угідь, у тому числі на польових і лісових дорогах (крім доріг загального користування), з будь-якою стрілецькою зброєю або з капканами та іншими знаряддями добування звірів і птахів, або з собаками мисливських порід чи ловчими звірами і птахами.</p>
+<p>За порушення правил полювання законодавством передбачена як адміністративна, так і кримінальна відповідальність. Якщо полювання заподіяло істотної шкоди або відбувалось у заповідниках чи на тварин, занесених до  Червоної книги України, то порушники караються штрафом від 1700 до  3400 грн або обмеженням волі до трьох років. Якщо ті ж самі дії були вчинені службовою особою із використанням службового становища або за змовою групи осіб, то штраф буде у двічі більшим: від  3400 до 6800 грн, а також за це передбачено обмеження або позбавлення волі до п’яти років. До адміністративних порушень відносять: полювання без дозволу; полювання в заборонених місцях, у заборонений час чи забороненими знаряддями; допускання собак у мисливські угіддя без нагляду; полювання з порушенням установленого для певної території порядку; транспортування добутих тварин без відмітки у відповідній контрольній картці обліку. За це передбачено попередження або штраф від 510 до 1530 грн. За повторне  порушення правил штраф буде більшим: від 1020 до 2040 грн з конфіскацією рушниць або позбавлення права полювання до трьох років і з вилученням зброї.</p>
+<center><div id="over"> 
+  <h3> Пам'ятка</h3>
+  За бракон'ерство чинним законодавством визначено надзвичайно великі штрафи, бо не так давно їх збільшили вчетверо. Тому ні в якому разі не потрібно займатися схожими речами. Кожний, поважаючий себе мисливець, ніколи не займається бракон'єрством!
+</div>
+</center>
+<img src="зима 1.jpg" width=30% height=15% class="centerfoto">
+  </td>
+ </tr>
+ <tr>
+   <td bgcolor="#006400" id="footer">
+     <center>
+       Wild Duck 2021 - 2022
+       <br>
+       При використанні матеріалів сайту, посилання на Wild Duck обов'язкове
+       <br>
+       Сторінку створено у 2022 році
+     </center>
+   </td>
+ </tr>
+ <div id="setting1" onmouseleave="set_close ();">
+  <div id="set_text">
+    <p id="normal">
+   <button id='au' onclick="autoth();">
+	  Авторизація
+   </button>
+   <p id="normal"></p>
+   <button onclick="tema(td1.id);tema(td2.id);tema(td3.id);">
+    Натисніть для темної теми 
+   </button>
+   <p id="normal"></p>
+   <button onclick="tema_off(td1.id);tema_off(td2.id);tema_off(td3.id);">
+    Натисніть для світлої теми 
+   </button>
+  </div>
+ </div>
+ <div id="dopfunc1" onmouseleave="dopfun_close();">
+   <div id="dop_func" >
+     <form>
+	<p id="normal">
+  <button value='patrons' onclick="patrons();" id="patr">
+	Натисніть для підрахунку ціни патронів <img src="п.jpg" style="vertical-align: middle; border: 0"  >
+	</button>
+</p>
+  <button class="buttonform" onmouseover="anketa(); timer ();">
+  наведіть для заповнення анкети
+  </button>
+  </form>
+   </div>
+ </div>
+ <div id="blur">
+ <div id="textform">  
+  <img src="кр.png" width="25px" id="cr" onclick="anketa_off ()">
+  <h4 align = center>   
+
+  Відправте нам повідомлення, ми вам допоможемо
+
+  </h4>
+  <div id="form" >
+  <form role="form" action="mailto:egorbudovskij@gmail.com" autocomplete="off" method="POST">
+    <div>
+    <label for="name">
+	  Ім'я
+	  </label>
+      <input type="text" name="name" required>
+    </div>
+	<p>
+	</p>
+    <div class="radio">
+      <label for="sex">
+	  Стать
+        <select name="sex">
+        <option value="Female">жінка</option> 
+        <option value="Male" selected>чоловік</option> 
+        <option value="indefined">Не визначено</option> 
+      </select>
+      </label>
+    </div>
+	<p>
+	</p>
+    <div>
+    <label for="email">
+	  E-mail
+	  </label>
+      <input type="email" name="email" required>
+    </div>
+    <p>
+    </p>
+      <div>
+      <label for="tel">
+      Номер телефону
+      </label>
+        <input type="text" name="tel">
+      </div>
+	<p>
+	</p>
+    <div>
+      <label for="country">
+	  Країна проживання
+	  </label>
+	  <input type="text" name="country" required>
+    </div>  
+    <p>
+	  </p>
+	<div>
+	 <label>
+	  Оберіть свою проблему
+	  <select name="problem">
+	  <option value="Patrons">Не можете визначитися із патронами</option>
+	  <option value="Dogs">Не можете  натренувати свою собаку</option>	
+	  <option value="Calibre">Не можете визначитися із калібром рушниці</option>
+	  </select>
+	 </label>
+	 </div>
+	 <p>
+	 </p>
+	 <div>
+	  <label>
+	   Якщо у пунктах немає вашої проблеми, то опишіть її:
+	   <input type='text'>
+	  </label>
+   </div>
+	 <div class="button_form">
+    <button NAME = "Відправити" TYPE="confirm" VALUE = "Відправити" onclick="confirm('Відправити листа поштою?')">
+      Відправити
+    </button>
+	  <button type="reset" value="Очистити">
+      Очистити
+      </button>
+	</div>
+</form>
+</div>	
+</div>
+</div>
+</table>
+</body>
+</html>

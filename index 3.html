@@ -1,0 +1,269 @@
+<html>
+<head>
+  <title>
+    Wild Duck. Види мисливської зброї
+   </title>
+<link rel="stylesheet" type="text/css" href="style.css">
+  <script>
+    function set_open (){
+    document.getElementById('setting1').style.display = 'block';
+  }
+  function set_close (){
+    document.getElementById('setting1').style.display = 'none';
+  }
+  function dopfun_open (){
+    document.getElementById('dopfunc1').style.display = 'block';
+  }
+  function dopfun_close (){
+    document.getElementById('dopfunc1').style.display = 'none';
+  }
+  function patrons() {
+var x=parseInt(prompt("Введіть кількість патронів"));
+var y=parseFloat(prompt("Введіть ціну патрона"));
+alert("До сплати "+ x*y + "грн");
+}
+function autoth() {
+var x=prompt("Введіть ваше ім'я");
+if (x==""){
+ document.getElementById("au").innerHTML =  "Доброго дня, гість";
+}
+else{
+document.getElementById("au").innerHTML =  "Доброго дня, " + x;
+}
+}
+var x=45
+var y=9
+function likes() {
+x += 1;
+document.getElementById("lol").textContent = x + " likes";
+}
+function dislikes() {
+y += 1;
+document.getElementById("loll").textContent = y + " dislikes";
+}
+function timer () {setTimeout(function(){
+document.getElementById("textform").style.display='none';
+}, 180000);}
+function anketa () {
+document.getElementById("textform").style.display = 'block';
+document.getElementById("blur").style.display = 'block';
+}
+function anketa_off () {
+document.getElementById("textform").style.display = 'none';
+document.getElementById("blur").style.display = 'none';
+}
+
+function tema (a){
+var lol = document.getElementById(a);
+var cl = document.getElementById(a);
+lol.style.background = "#696969";
+cl.style.color = "#F0FFF0";
+document.body.style.backgroundImage = "url(ночнебо.jpg)";
+
+}
+function tema_off (b){
+var lol = document.getElementById(b);
+var cl = document.getElementById(b);
+lol.style.background = "white";
+cl.style.color = "black";
+document.body.style.backgroundImage = "url(1.jpg)";
+
+}
+  </script>
+</head>
+<body  link="black" alink="#FF4500" vlink="#006400" background="1.jpg">
+<table  width=93% height=100% align="center" cellspacing="0" cellpadding="15" id="main_t">
+  <tr>
+    <td colspan="2" id="td1">
+     <header>
+       <nav id="menu1">
+       <ul class="main">
+        <li class="main1"><a href="index.html">Головна</a>
+        </li>
+           <li class="main1"><a href="index 1.html">Правила полювання в Україні</a>
+             <ul class="vipod">
+               <li><a href="#m3_1">Бракон'єрство</a></li>
+               <li><a href="#m3_2">Штрафи</a></li>
+               <li><a href="#m3_3">Вилучення зброї</a></li>
+           </ul>
+         </li>
+           <li class="main1"><a href="index 2.html">Полювання в Україні та нашому регіоні </a>
+             <ul class="vipod">
+               <li><a href="#m3_1">Полювання на птахів</a></li>
+               <li><a href="#m3_2">Полювання на хижаків</a></li>
+               <li><a href="#m3_3">Полювання на копитних</a></li>
+           </ul>
+         </li>
+           <li class="main1">
+             <a href="index 4.html">Догляд за зброєю</a>
+           </li>
+           <li>
+             <a href="index 5.html"> 
+             Типи та види набоїв
+             </a>
+           </li>
+       </ul>
+       </nav>
+    </td>
+  </tr>
+ <tr height=10 bgcolor="White">
+  <td id="td2"> 
+   <h2>
+   Види мисливської зброї
+   <img src="меню.png" width="50px" id="menu" onmouseover="set_close();dopfun_open();">
+   <img src="gear.png" width="50px" id="gear" onmouseover="set_open();dopfun_close();">
+   </h2>
+   <hr>
+<center>
+  <div class="container">
+    <img src="ружо.jpg" alt="First image" width=49.25% height=15% class="image">
+    <div class="overlay">
+      <div class="text">це принцип рушниці</div>
+    </div>
+  </div>
+</center>
+<p>Мисливська вогнепальна зброя призначена для ураження тварин і птахів під час полювання. До мисливської вогнепальної зброї належать: мисливські гвинтівки, карабіни та штуцери, гладкоствольні рушниці, гладкоствольні рушниці із свердловиною «парадокс» з нарізами 100-140 мм на початку або в кінці ствола, мисливські рушниці зі свердловиною «сюпра», комбіновані рушниці, що мають поряд з гладкими і нарізні стволи.
+</p>
+<p>
+Мисливська зброя повинна відповідати таким вимогам:
+<br>
+<ol>
+ <li>для стрільби зі зброї використовуються мисливські патрони відповідного калібру;</li>
+ <li>загальна довжина з розкладеним та зафіксованим прикладом має становити не менше 800 мм;</li>
+<li>ємність магазину (барабана) (з установленим обмежувачем за наявності) нарізної зброї не має перевищувати 10 патронів, а гладкоствольної – 4 патронів;</li>
+<li>мати запобіжник;</li>
+<li>довжина ствола мисливської зброї повинна відповідати вимогам ГСТУ 78-41-002-97.</li>
+</ol>
+<p align=center>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/HBdPEXlgBgE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen controls="controls" alt="Види мисливської зброї, відео"></iframe>
+ </p>
+  </td>
+ </tr>
+ <tr>
+  <td bgcolor="#006400" id="footer">
+    <center>
+      Wild Duck 2021 - 2022
+      <br>
+      При використанні матеріалів сайту, посилання на Wild Duck обов'язкове
+      <br>
+      Сторінку створено у 2022 році
+    </center>
+  </td>
+</tr>
+<div id="setting1" onmouseleave="set_close ();">
+  <div id="set_text">
+    <p id="normal">
+   <button id='au' onclick="autoth();">
+	  Авторизація
+   </button>
+   <p id="normal"></p>
+   <button onclick="tema(td1.id);tema(td2.id);tema(td3.id);">
+    Натисніть для темної теми 
+   </button>
+   <p id="normal"></p>
+   <button onclick="tema_off(td1.id);tema_off(td2.id);tema_off(td3.id);">
+    Натисніть для світлої теми 
+   </button>
+  </div>
+ </div>
+ <div id="dopfunc1" onmouseleave="dopfun_close();">
+   <div id="dop_func" >
+     <form>
+	<p id="normal">
+  <button value='patrons' onclick="patrons();" id="patr">
+	Натисніть для підрахунку ціни патронів <img src="п.jpg" style="vertical-align: middle; border: 0"  >
+	</button>
+</p>
+  <button class="buttonform" onmouseover="anketa(); timer ();">
+  наведіть для заповнення анкети
+  </button>
+  </form>
+   </div>
+   </div>
+   <div id="blur">
+ <div id="textform">  
+  <img src="кр.png" width="25px" id="cr" onclick="anketa_off ()">
+  <h4 align = center>   
+
+  Відправте нам повідомлення, ми вам допоможемо
+
+  </h4>
+  <div id="form" >
+  <form role="form" action="mailto:egorbudovskij@gmail.com" autocomplete="off" method="POST">
+    <div>
+    <label for="name">
+	  Ім'я
+	  </label>
+      <input type="text" name="name" required>
+    </div>
+	<p>
+	</p>
+    <div class="radio">
+      <label for="sex">
+	  Стать
+        <select name="sex">
+        <option value="Female">жінка</option> 
+        <option value="Male" selected>чоловік</option> 
+        <option value="indefined">Не визначено</option> 
+      </select>
+      </label>
+    </div>
+	<p>
+	</p>
+    <div>
+    <label for="email">
+	  E-mail
+	  </label>
+      <input type="email" name="email" required>
+    </div>
+    <p>
+    </p>
+      <div>
+      <label for="tel">
+      Номер телефону
+      </label>
+        <input type="text" name="tel">
+      </div>
+	<p>
+	</p>
+    <div>
+      <label for="country">
+	  Країна проживання
+	  </label>
+	  <input type="text" name="country" required>
+    </div>  
+    <p>
+	  </p>
+	<div>
+	 <label>
+	  Оберіть свою проблему
+	  <select name="problem">
+	  <option value="Patrons">Не можете визначитися із патронами</option>
+	  <option value="Dogs">Не можете  натренувати свою собаку</option>	
+	  <option value="Calibre">Не можете визначитися із калібром рушниці</option>
+	  </select>
+	 </label>
+	 </div>
+	 <p>
+	 </p>
+	 <div>
+	  <label>
+	   Якщо у пунктах немає вашої проблеми, то опишіть її:
+	   <input type='text'>
+	  </label>
+   </div>
+	 <div class="button_form">
+	  <button NAME = "Відправити" TYPE="confirm" VALUE = "Відправити" onclick="confirm('Відправити листа поштою?')">
+      Відправити
+    </button>
+	  <button type="reset" value="Очистити">
+      Очистити
+      </button>
+	</div>
+</form>
+</div>	
+</div>
+</div>
+</table>
+</body>
+</html>

@@ -1,0 +1,300 @@
+<html>
+<head>
+  <title>
+    Wild Duck. Типи та види набоїв
+   </title>
+<link rel="stylesheet" type="text/css" href="style.css">
+ <style>
+   a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+   } 
+  </style>
+  <script>
+    function set_open (){
+    document.getElementById('setting1').style.display = 'block';
+  }
+  function set_close (){
+    document.getElementById('setting1').style.display = 'none';
+  }
+  function dopfun_open (){
+    document.getElementById('dopfunc1').style.display = 'block';
+  }
+  function dopfun_close (){
+    document.getElementById('dopfunc1').style.display = 'none';
+  }
+  function patrons() {
+var x=parseInt(prompt("Введіть кількість патронів"));
+var y=parseFloat(prompt("Введіть ціну патрона"));
+alert("До сплати "+ x*y + "грн");
+}
+function autoth() {
+var x=prompt("Введіть ваше ім'я");
+if (x==""){
+ document.getElementById("au").innerHTML =  "Доброго дня, гість";
+}
+else{
+document.getElementById("au").innerHTML =  "Доброго дня, " + x;
+}
+}
+var x=45
+var y=9
+function likes() {
+x += 1;
+document.getElementById("lol").textContent = x + " likes";
+}
+function dislikes() {
+y += 1;
+document.getElementById("loll").textContent = y + " dislikes";
+}
+function timer () {setTimeout(function(){
+document.getElementById("textform").style.display='none';
+}, 180000);}
+function anketa () {
+document.getElementById("textform").style.display = 'block';
+document.getElementById("blur").style.display = 'block';
+}
+function anketa_off () {
+document.getElementById("textform").style.display = 'none';
+document.getElementById("blur").style.display = 'none';
+}
+
+function tema (a){
+var lol = document.getElementById(a);
+var cl = document.getElementById(a);
+lol.style.background = "#696969";
+cl.style.color = "#F0FFF0";
+document.body.style.backgroundImage = "url(ночнебо.jpg)";
+
+}
+function tema_off (b){
+var lol = document.getElementById(b);
+var cl = document.getElementById(b);
+lol.style.background = "white";
+cl.style.color = "black";
+document.body.style.backgroundImage = "url(1.jpg)";
+
+}
+  </script>
+</head>
+<body  link="black" alink="#FF4500" vlink="#006400" background="1.jpg">
+<table id="main_t" width=93% height=100% align="center" cellspacing="0" cellpadding="15">
+  <tr>
+    <td colspan="2" id="td1">
+     <header>
+       <nav id="menu1">
+       <ul class="main">
+        <li class="main1"><a href="index.html">Головна</a>
+        </li>
+           <li class="main1"><a href="index 1.html">Правила полювання в Україні</a>
+             <ul class="vipod">
+               <li><a href="#m3_1">Бракон'єрство</a></li>
+               <li><a href="#m3_2">Штрафи</a></li>
+               <li><a href="#m3_3">Вилучення зброї</a></li>
+           </ul>
+         </li>
+           <li class="main1"><a href="index 2.html">Полювання в Україні та нашому регіоні </a>
+             <ul class="vipod">
+               <li><a href="#m3_1">Полювання на птахів</a></li>
+               <li><a href="#m3_2">Полювання на хижаків</a></li>
+               <li><a href="#m3_3">Полювання на копитних</a></li>
+           </ul>
+         </li>
+           <li class="main1"><a href="index 3.html">Види мисливської зброї</a>
+               <ul class="vipod">
+                   <li><a href="#m3_1">Мисливська гвинтівка</a></li>
+                   <li><a href="#m3_2">Рушниці</a></li>
+               </ul>
+           </li>
+           <li class="main1">
+             <a href="index 4.html">Догляд за зброєю</a>
+           </li>
+       </ul>
+       </nav>
+    </td>
+  </tr>
+ <tr height=10 bgcolor="White">
+  <td id="td2"> 
+   <h2>
+   Типи та види набоїв
+   <img src="меню.png" width="50px" id="menu" onmouseover="set_close();dopfun_open();">
+   <img src="gear.png" width="50px" id="gear" onmouseover="set_open();dopfun_close();">
+   </h2>
+   <hr>
+<p align=center><img src="ие.jpg" width=28.5% height=10%><img src="struktura_patrona_2.jpg" width=38% height=33%></p>
+<p>
+Патроном називають з’єднані гільзою кулю (снаряд, дріб), пороховий заряд і капсуль (капсульна втулка). Калібр – головний параметр як зброї, так і патронів. Простіше кажучи, – це розмір. Наприклад, калібр 9х18 означає, що довжина гільзи патрона – 18 мм, діаметр гільзи (там, де розташована куля) – 9 мм.
+</p>
+<p>
+Найпоширенішими калібрами є:
+</p>
+<ul>
+<li>
+<p>
+Калібр 9х18. Це пістолети ПМ (пістолет Макарова), найпоширеніший пістолет в Україні, Білорусі та інших країнах колишнього СРСР. Ним можна уразити людину на дистанції до 50 м в незахищені частини тіла.
+</p>
+</li>
+<li>
+<p>
+ Калібр 9х19. Калібр використовують для пістолетів в Європі та США Найвідомішим пістолетом цього калібру є Глок-19. Патрони такого калібру мають велику потужність, тому гарантовано можуть вразити людину на дистанції 100-150 м, а на дистанції до 50 м можуть пробивати й легкі бронежилети.
+ </p>
+</li>
+<li>
+<p>
+Калібр 5.45х39. Це автоматний патрон вітчизняного виробництва. Нині є на озброєнні України, Білорусі та інших країн. Зазвичай його називають "п'ятіркою". Застосовують для автоматів і кулеметів Калашникова різних серій: АК-74, РПК-74 тощо. Патрони цього калібру можуть гарантовано вражати ворога на дистанції до 1-1.5 км, а на дистанції до 500-700 м пробивають легкі й середні по захисту бронежилети. Плюсами цих патронів є їхня розповсюдженість та легка вага.
+</p>
+</li>
+<li>
+<p>
+Калібр 5.56х45 (NATO). Це основний калібр усіх американських і натовських автоматів та гвинтівок.
+</p>
+</li>
+<li>
+<p>
+Калібр 7.62х39. Це калібр вітчизняної зброї, яку було виготовлено за часів СРСР. Але так само цей калібр зараз дуже поширений в арабських і латиноамериканських країнах, а також по всьому світу в якості патронів для мисливської зброї.
+Патрони цього калібру мають дуже потужну ударно-динамічну силу: якщо в ближньому бою ви потрапите в руку ворога, то її швидше за все відірве.
+</p>
+</li>
+<li>
+<p>
+Калібр 7.62х51. Патрони цього калібру найчастіше застосовують у снайперських гвинтівках і кулеметах. Потужність калібру 7.62х51 дуже велика, тому й застосовується в багатьох зразках снайперської зброї.
+</p>
+</li>
+<li>
+<p>
+Калібр 7.62х54. Це вітчизняний калібр, патрони якого застосовують у снайперській гвинтівці СВД та її модифікаціях. У ближньому та середньому бою зброя з цим патроном пробиває більшість типів бронежилетів, а також легкоброньовану техніку.
+</p>
+</li>
+</ul>
+<p align=center>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/l1o1lP4r3WM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </p>
+  </td>
+ </tr>
+ <tr>
+  <td bgcolor="#006400" id="footer">
+    <center>
+      Wild Duck 2021 - 2022
+      <br>
+      При використанні матеріалів сайту, посилання на Wild Duck обов'язкове
+      <br>
+      Сторінку створено у 2022 році
+    </center>
+  </td>
+</tr>
+<div id="setting1" onmouseleave="set_close ();">
+  <div id="set_text">
+    <p id="normal">
+   <button id='au' onclick="autoth();">
+	  Авторизація
+   </button>
+   <p id="normal"></p>
+   <button onclick="tema(td1.id);tema(td2.id);tema(td3.id);">
+    Натисніть для темної теми 
+   </button>
+   <p id="normal"></p>
+   <button onclick="tema_off(td1.id);tema_off(td2.id);tema_off(td3.id);">
+    Натисніть для світлої теми 
+   </button>
+  </div>
+ </div>
+ <div id="dopfunc1" onmouseleave="dopfun_close();">
+   <div id="dop_func" >
+     <form>
+	<p id="normal">
+  <button value='patrons' onclick="patrons();" id="patr">
+	Натисніть для підрахунку ціни патронів <img src="п.jpg" style="vertical-align: middle; border: 0"  >
+	</button>
+</p>
+  <button class="buttonform" onmouseover="anketa(); timer ();">
+  наведіть для заповнення анкети
+  </button>
+  </form>
+   </div>
+   </div>
+   <div id="blur">
+ <div id="textform">  
+  <img src="кр.png" width="25px" id="cr" onclick="anketa_off ()">
+  <h4 align = center>   
+
+  Відправте нам повідомлення, ми вам допоможемо
+
+  </h4>
+  <div id="form" >
+  <form role="form" action="mailto:egorbudovskij@gmail.com" autocomplete="off" method="POST">
+    <div>
+    <label for="name">
+	  Ім'я
+	  </label>
+      <input type="text" name="name" required>
+    </div>
+	<p>
+	</p>
+    <div class="radio">
+      <label for="sex">
+	  Стать
+        <select name="sex">
+        <option value="Female">жінка</option> 
+        <option value="Male" selected>чоловік</option> 
+        <option value="indefined">Не визначено</option> 
+      </select>
+      </label>
+    </div>
+	<p>
+	</p>
+    <div>
+    <label for="email">
+	  E-mail
+	  </label>
+      <input type="email" name="email" required>
+    </div>
+    <p>
+    </p>
+      <div>
+      <label for="tel">
+      Номер телефону
+      </label>
+        <input type="text" name="tel">
+      </div>
+	<p>
+	</p>
+    <div>
+      <label for="country">
+	  Країна проживання
+	  </label>
+	  <input type="text" name="country" required>
+    </div>  
+    <p>
+	  </p>
+	<div>
+	 <label>
+	  Оберіть свою проблему
+	  <select name="problem">
+	  <option value="Patrons">Не можете визначитися із патронами</option>
+	  <option value="Dogs">Не можете  натренувати свою собаку</option>	
+	  <option value="Calibre">Не можете визначитися із калібром рушниці</option>
+	  </select>
+	 </label>
+	 </div>
+	 <p>
+	 </p>
+	 <div>
+	  <label>
+	   Якщо у пунктах немає вашої проблеми, то опишіть її:
+	   <input type='text'>
+	  </label>
+   </div>
+	 <div class="button_form">
+	  <button NAME = "Відправити" TYPE="confirm" VALUE = "Відправити" onclick="confirm('Відправити листа поштою?')">
+      Відправити
+    </button>
+	  <button type="reset" value="Очистити">
+      Очистити
+      </button>
+	</div>
+</form>
+</div>	
+</div>
+</div>
+</table>
+</body>
+</html>

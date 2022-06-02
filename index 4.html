@@ -1,0 +1,289 @@
+<html>
+<head>
+  <title>
+    Wild Duck. Догляд за зброєю
+   </title>
+<link rel="stylesheet" type="text/css" href="style.css">
+ <style>
+   a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+   } 
+  </style>
+  <script>
+    function set_open (){
+    document.getElementById('setting1').style.display = 'block';
+  }
+  function set_close (){
+    document.getElementById('setting1').style.display = 'none';
+  }
+  function dopfun_open (){
+    document.getElementById('dopfunc1').style.display = 'block';
+  }
+  function dopfun_close (){
+    document.getElementById('dopfunc1').style.display = 'none';
+  }
+  function patrons() {
+var x=parseInt(prompt("Введіть кількість патронів"));
+var y=parseFloat(prompt("Введіть ціну патрона"));
+alert("До сплати "+ x*y + "грн");
+}
+function autoth() {
+var x=prompt("Введіть ваше ім'я");
+if (x==""){
+ document.getElementById("au").innerHTML =  "Доброго дня, гість";
+}
+else{
+document.getElementById("au").innerHTML =  "Доброго дня, " + x;
+}
+}
+var x=45
+var y=9
+function likes() {
+x += 1;
+document.getElementById("lol").textContent = x + " likes";
+}
+function dislikes() {
+y += 1;
+document.getElementById("loll").textContent = y + " dislikes";
+}
+function timer () {setTimeout(function(){
+document.getElementById("textform").style.display='none';
+}, 180000);}
+function anketa () {
+document.getElementById("textform").style.display = 'block';
+document.getElementById("blur").style.display = 'block';
+}
+function anketa_off () {
+document.getElementById("textform").style.display = 'none';
+document.getElementById("blur").style.display = 'none';
+}
+
+function tema (a){
+var lol = document.getElementById(a);
+var cl = document.getElementById(a);
+lol.style.background = "#696969";
+cl.style.color = "#F0FFF0";
+document.body.style.backgroundImage = "url(ночнебо.jpg)";
+
+}
+function tema_off (b){
+var lol = document.getElementById(b);
+var cl = document.getElementById(b);
+lol.style.background = "white";
+cl.style.color = "black";
+document.body.style.backgroundImage = "url(1.jpg)";
+
+}
+  </script>
+</head>
+<body  link="black" alink="#FF4500" vlink="#006400" background="1.jpg">
+<table id="main_t" width=93% height=100% align="center" cellspacing="0" cellpadding="15">
+  <tr>
+    <td colspan="2" id="td1">
+     <header>
+       <nav id="menu1">
+       <ul class="main">
+        <li class="main1"><a href="index.html">Головна</a>
+        </li>
+           <li class="main1"><a href="index 1.html">Правила полювання в Україні</a>
+             <ul class="vipod">
+               <li><a href="#m3_1">Бракон'єрство</a></li>
+               <li><a href="#m3_2">Штрафи</a></li>
+               <li><a href="#m3_3">Вилучення зброї</a></li>
+           </ul>
+         </li>
+           <li class="main1"><a href="index 2.html">Полювання в Україні та нашому регіоні </a>
+             <ul class="vipod">
+               <li><a href="#m3_1">Полювання на птахів</a></li>
+               <li><a href="#m3_2">Полювання на хижаків</a></li>
+               <li><a href="#m3_3">Полювання на копитних</a></li>
+           </ul>
+         </li>
+           <li class="main1"><a href="index 3.html">Види мисливської зброї</a>
+               <ul class="vipod">
+                   <li><a href="#m3_1">Мисливська гвинтівка</a></li>
+                   <li><a href="#m3_2">Рушниці</a></li>
+               </ul>
+           </li>
+           <li>
+             <a href="index 5.html"> 
+             Типи та види набоїв
+             </a>
+           </li>
+       </ul>
+       </nav>
+    </td>
+  </tr>
+ <tr height=10 bgcolor="White">
+  <td id="td2"> 
+   <h2>
+   Догляд за зброєю
+   <img src="меню.png" width="50px" id="menu" onmouseover="set_close();dopfun_open();">
+   <img src="gear.png" width="50px" id="gear" onmouseover="set_open();dopfun_close();">
+   </h2>
+   <hr>
+<p align=center><img src="ор.jpg" width=27.5% height=10%><img src="оружие.jpg" width=33.75% height=33%></p>
+<p>Довговічність і надійна служба рушниці повністю залежить від його змісту і якісного догляду. При роботі зі зброєю варто пам'ятати, що сам постріл і що виникає в стовбурі тиск не так розхитують механізм при справності зброї, як несправний стан дотичних частин, заряди невідповідними за розмірами гільз і безцільне ляскання затворами.
+</p>
+Основні проблеми, що вражають зброю:
+<ul>
+<li>
+<p>
+У першу чергу в рушницю розхитується затвор і починають підтиратися його функціональні частини - гаки стовбурів, засувки і болт, на якому здійснюється обертання стовбура. У разі ж коли рушницю повністю закрито жодна з частин не відчуває на собі настільки шкідливого для функціональності тертя, яке завжди виникає при відкритті і закритті. Головним ворогом механізму стає туго входить гільза, а також зміст болта і затвора в багнюці.
+Якщо не виконувати обтірку і своєчасне змазування болтів і гачків попереду колодки перед складанням зброї, то на цих елементах може осідати пил і тверді частинки, які надають згубний вплив - стирання поверхонь тертьових компонентів і розробку гнізд. Щоб уникнути разбалтиванія зброї в колодці, необхідно містити всі вирізи в чистоті, охороняти їх від осідання пилу, а також перед складанням виконувати змазування болта і стовбурних вирізів якісною олією.
+</p>
+</li>
+<li>
+<p>
+Наступним головним правилом стає робота з <a href="index 5.html">підходящими патронами</a>. Якщо гільзи роздулися і входять в стовбур туго, то їх потрібно калібрувати перед спорядженням. Також необхідно подбати про оберігання зброї від попадання вологи. Навіть осіла на дерев'яні частини зброї вона може привести до розбухання і подальшого відшарування матеріалу від металевих частин. При подальшому просиханні частина вологи може опинитися на металі і сприяти його корозії. Звичайно ж, це не остання проблема догляду.
+</p>
+</li>
+<li>
+<p>
+ Потрібно ретельно стежити за справним станом бойків: надмірно загострені і довгі бойки можуть пробити метал пістона і сприяти попаданню газів в отвір бойків. Це процес надає окислення металу, сприяє виникненню іржі і не дає бойку вільно ходити в стволі. Після цього частішають осічки.
+</p>
+</li>
+<li>
+<p>
+А от з замками в зброї практично не буває проблем - вони не піддаються ураженню газами і вологістю, за винятком тих випадків, коли зброя падає у воду. Їх рекомендується виймати і очищати один раз на рік.
+</p>
+</li>
+<li>
+<p>
+Найпростішим у догляді стає ствол зброї. Якщо після кожного полювання прочищати ствол (для цього відмінно підійде лужний склад, РЧС, масло РЖ) і рясно змащувати його нейтральним маслом, то ймовірність пошкодження стовбура буде мінімальною. Після стрілянини малодимние порохом потрібно проводити поетапну очистку зброї. На початку його обробляють маслом , а вже через кілька днів проводять сухе очищення, яка допомагає видалити нагар. Після чищення стовбур знову обробляється маслами з лужною реакцією. Після цього наліт не виявляється. Після здійснюється ретельна протирання ганчіркою, льоном або клоччям. Тільки після очищення рушниці ствол потрібно змастити маслом та протерти на наступний день. Не варто проводити часткову очистку і легку протирку стовбура. Неякісне очищення сприяє прояву нальоту та іржі.
+</p>
+</li>
+</ul>
+<p align=center>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/RmbAYYEjtg4?start=25" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </p>
+  </td>
+ </tr>
+ <tr>
+  <td bgcolor="#006400" id="footer">
+    <center>
+      Wild Duck 2021 - 2022
+      <br>
+      При використанні матеріалів сайту, посилання на Wild Duck обов'язкове
+      <br>
+      Сторінку створено у 2022 році
+    </center>
+  </td>
+</tr>
+<div id="setting1" onmouseleave="set_close ();">
+  <div id="set_text">
+    <p id="normal">
+   <button id='au' onclick="autoth();">
+	  Авторизація
+   </button>
+   <p id="normal"></p>
+   <button onclick="tema(td1.id);tema(td2.id);tema(td3.id);">
+    Натисніть для темної теми 
+   </button>
+   <p id="normal"></p>
+   <button onclick="tema_off(td1.id);tema_off(td2.id);tema_off(td3.id);">
+    Натисніть для світлої теми 
+   </button>
+  </div>
+ </div>
+ <div id="dopfunc1" onmouseleave="dopfun_close();">
+   <div id="dop_func" >
+     <form>
+	<p id="normal">
+  <button value='patrons' onclick="patrons();" id="patr">
+	Натисніть для підрахунку ціни патронів <img src="п.jpg" style="vertical-align: middle; border: 0"  >
+	</button>
+</p>
+  <button class="buttonform" onmouseover="anketa(); timer ();">
+  наведіть для заповнення анкети
+  </button>
+  </form>
+   </div>
+   </div>
+   <div id="blur">
+ <div id="textform">  
+  <img src="кр.png" width="25px" id="cr" onclick="anketa_off ()">
+  <h4 align = center>   
+
+  Відправте нам повідомлення, ми вам допоможемо
+
+  </h4>
+  <div id="form" >
+  <form role="form" action="mailto:egorbudovskij@gmail.com" autocomplete="off" method="POST">
+    <div>
+    <label for="name">
+	  Ім'я
+	  </label>
+      <input type="text" name="name" required>
+    </div>
+	<p>
+	</p>
+    <div class="radio">
+      <label for="sex">
+	  Стать
+        <select name="sex">
+        <option value="Female">жінка</option> 
+        <option value="Male" selected>чоловік</option> 
+        <option value="indefined">Не визначено</option> 
+      </select>
+      </label>
+    </div>
+	<p>
+	</p>
+    <div>
+    <label for="email">
+	  E-mail
+	  </label>
+      <input type="email" name="email" required>
+    </div>
+    <p>
+    </p>
+      <div>
+      <label for="tel">
+      Номер телефону
+      </label>
+        <input type="text" name="tel">
+      </div>
+	<p>
+	</p>
+    <div>
+      <label for="country">
+	  Країна проживання
+	  </label>
+	  <input type="text" name="country" required>
+    </div>  
+    <p>
+	  </p>
+	<div>
+	 <label>
+	  Оберіть свою проблему
+	  <select name="problem">
+	  <option value="Patrons">Не можете визначитися із патронами</option>
+	  <option value="Dogs">Не можете  натренувати свою собаку</option>	
+	  <option value="Calibre">Не можете визначитися із калібром рушниці</option>
+	  </select>
+	 </label>
+	 </div>
+	 <p>
+	 </p>
+	 <div>
+	  <label>
+	   Якщо у пунктах немає вашої проблеми, то опишіть її:
+	   <input type='text'>
+	  </label>
+   </div>
+	 <div class="button_form">
+    <button NAME = "Відправити" TYPE="confirm" VALUE = "Відправити" onclick="confirm('Відправити листа поштою?')">
+      Відправити
+    </button>
+	  <button type="reset" value="Очистити">
+      Очистити
+      </button>
+	</div>
+</form>
+</div>	
+</div>
+</div>
+</table>
+</body>
+</html>
